@@ -45,7 +45,7 @@
   }
 
   .project {
-    height: 480px;
+    height: 500px;
   }
 
   .project-left {
@@ -64,12 +64,15 @@
   }
 
   .project-right img {
-    max-width: 60%;
-    max-height: 60%;
+    max-height: 75%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .p2-img {
+    margin-top: 28px;
   }
 }
 
