@@ -29,5 +29,5 @@ function copyLink(text) {
   document.execCommand("copy");
   document.body.removeChild(textarea);
 
-  alert(`已成功複製信箱地址`);
+  alert(`Copied email adress successfully!\n\nPlease feel free to contact me if needed.`);
 }
