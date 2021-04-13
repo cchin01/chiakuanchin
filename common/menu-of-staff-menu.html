@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/project.css" />
+
+    <title>chiakuanchin</title>
+  </head>
+  <body>
+    <!-- To Top -->
+    <button onclick="toTopFunction()" id="toTopBtn" title="Go to top" style="display: block">
+      <img src="../img/arrow.png" alt="Go to top" />
+    </button>
+
+    <!-- Header -->
+
+    <header id="main-head">
+      <div class="wrapper-home">
+        <div class="head-container">
+          <div class="logo-container"><a href="../index.html" id="logo">CK</a></div>
+          <nav>
+            <ul>
+              <li><a target="_blank" href="../img/Chia Kuan Chin.pdf" target="_blank">Resume</a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/cchin01/"">Linkedin</a></li>
+              <li><a id="copyLink" onclick="copyLink(`ckchin.pm@gmail.com`)">Email</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- content -->
+
+    <div class="project-wrap">
+      <div class="row justify-content-center">
+        <div class="col-sm-5 col-sm-offset-2">
+          <h1>Menu of Staff Meal</h1>
+
+          <img src="https://miro.medium.com/max/875/0*uBQBH9S-THh1bSyi" alt="" />
+          <div class="sp-s"></div>
+
+          <h3>DEMO</h3>
+          <p><a href="https://cchin01.github.io/Yahoo-Menu/">https://cchin01.github.io/Yahoo-Menu/</a></p>
+          
+
+          <h3>Target Audience</h3>
+          <p>Company employees who are accustomed to eating employee meals every single day.</p>
+
+          <h3>Pain Points</h3>
+          <p>The menu layout diagram provided by the lunch supplier cooperating with the company is as follows:</p>
+
+          <img src="https://miro.medium.com/max/3000/1*bVqHRLxrmWjWKHHnroYOqA.png" alt="">
+          <div class="img-description">Original Menu layout</div>
+
+          <div class="sp-m"></div>
+          
+          <p>In other words, when I want to compare the dishes of each supplier on Wednesday to decide what I want to eat today, I have to go back and forth through five pages.</p>
+
+          <img src="https://miro.medium.com/max/875/0*Qfl3bAqsm9KsissP.jpg" alt="">
+          <div class="img-description">Only 1/5 of the menu can be seen on each page.</div>
+          <div class="sp-m"></div>
+
+          <h3>How to solve the problem?</h3>
+          <p>Allow users to filter by "day of week" as a dimension to facilitate comparison of different lunches on the same day.</p>
+
+          <h3>Organize requirements</h3>
+          <img src="https://miro.medium.com/max/3000/0*ITNkgOAOiGsOK1ih.jpg" alt="">
+          <div class="sp-s"></div>
+          <p>This is the evaluation method used by baremetrics to measure product functions.</p>
+
+          <h3>Wireframe</h3>
+          <img src="https://miro.medium.com/max/3000/0*hIDUQAVTplBvrEoD.jpg" alt="">
+
+          <h3>MVP</h3>
+          <img src="https://miro.medium.com/max/3000/0*Mi9K4ZPoSUcRHg6q.jpg" alt="">
+          <li>Because there are 6 dishes in a day, the general screen is 6 items a row on the CSS setting, and 3 items a row on the mobile device.</li>
+          <li>There is only one choice for salads and light meals a day, so it's a filter option on its own.</li>
+
+          <h3>Test and Feedback</h3>
+          <li>When entering the page, if the "All" button has CSS style of being clicked before it is clicked, it can better remind the user what action to do.</li>
+          <li>Some people only started to check the menu on their mobile phones when they got up to get the lunch box. The responsive size of the text needs to be optimized.</li>
+
+          <h3>Update the Demand Pool</h3>
+          <img src="https://miro.medium.com/max/3000/0*hTDfAknFbhdnIPyT.jpg" alt="">
+
+          <h3>Update the Product</h3>
+          <img src="https://miro.medium.com/max/3000/0*Kdv8abNuBfEUvTDu.jpg" alt="">
+          <div class="img-description">Final product</div>
+
+          <img src="https://miro.medium.com/max/3000/1*9gNcdvMxw7XDm_-HJ8K19Q.png" alt="">
+          <div class="img-description">Easily compare different dishes on the same day.</div>
+
+          <div class="sp-l"></div>
+          <div class="sp-l"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

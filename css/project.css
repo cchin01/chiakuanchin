@@ -1,0 +1,102 @@
+/*---------------------------
+-----------Reusable ---------
+---------------------------*/
+
+.project-wrap {
+  padding-top: 100px;
+}
+
+.wrapper-project {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.sp-l {
+  height: 120px;
+}
+
+.sp-m {
+  height: 60px;
+}
+
+.sp-s {
+  height: 30px;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 32px;
+}
+
+.img-description {
+  text-align: center;
+  padding-top: 15px;
+  word-spacing: 4px;
+  font-size: 13px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #464b52;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  bottom: -8px;
+  left: 0%;
+  background-color: #464b52;
+}
+
+h3 {
+  font-size: 22px;
+  color: #21242cea;
+  line-height: 40px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+p {
+  text-align: justify;
+  word-spacing: 2px;
+}
+
+li {
+  color: #464b52;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  line-height: 32px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  font-size: 16px;
+  word-spacing: 2px;
+}

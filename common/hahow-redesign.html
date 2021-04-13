@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/project.css" />
+
+    <title>chiakuanchin</title>
+  </head>
+  <body>
+    <!-- To Top -->
+    <button onclick="toTopFunction()" id="toTopBtn" title="Go to top" style="display: block">
+      <img src="../img/arrow.png" alt="Go to top" />
+    </button>
+    <!-- Header -->
+
+    <header id="main-head">
+      <div class="wrapper-home">
+        <div class="head-container">
+          <div class="logo-container"><a href="../index.html" id="logo">CK</a></div>
+          <nav>
+            <ul>
+              <li><a target="_blank" href="../img/Chia Kuan Chin.pdf" target="_blank">Resume</a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/cchin01/"">Linkedin</a></li>
+              <li><a id="copyLink" onclick="copyLink(`ckchin.pm@gmail.com`)">Email</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- content -->
+
+    <div class="project-wrap">
+      <div class="row justify-content-center">
+        <div class="col-sm-5 col-sm-offset-2">
+          <h1>Hahow APP redesign</h1>
+          <p>
+            As an online learning enthusiast, I often evaluate educational apps. I redesigned one of them, Hahow, a
+            mobile learning app, based on user research and usability test findings.
+          </p>
+          <img src="../img/projects/hahow APP/0_2D2V327LOnzAZExr.jpg" alt="" />
+
+          <h2>Major usability issues</h2>
+          <p>
+            Hahow has its own video player to diplay their courses. Most of the controls on the player will be familiar
+            to you if you have watched online videos before. However, the Hahow video player still lacks some features
+            that users need.
+          </p>
+
+          <h3>Speed control</h3>
+          <p>
+            Some courses would be too difficult or too easy to some students and would need a speed control button to
+            play slower or faster. However, it is not enabled in Hahow.
+          </p>
+
+          <h3>Resolution</h3>
+          <p>
+            Hahow decided to let the APP detect users' device and value internet connection environment, choosing the
+            best resolution itself while playing the videos. However, sometimes the detection is not accurate or users
+            are willing to wait some more time for high resolution. In this case, users still need the resolution
+            control button to make the video play in the right resolution.
+          </p>
+
+          <h3>The next course</h3>
+          <p>
+            When a user finishes a course in full-screen mode and wants to play the next one, the user needs to turn off
+            the full screen, choose the next course from the playlist, and turn on the full screen again.
+          </p>
+
+          <h3>Layout</h3>
+          <p>
+            During play, the play/pause, rewind/fast forward buttons and playback bar stay right in the bottom of the
+            video. These controls and the half-transparent mask under them block users' view to subtitles. Users need
+            subtitles to help them to decide when to stop rewind/fast. In addtion, users couldn't hide the control panel
+            immediately.
+          </p>
+
+          <h2>Recommendations</h2>
+          <li>make the control panel full screen</li>
+          <li>lower opacity of the control panel background</li>
+          <li>add speed and resolution controls</li>
+          <li>add next course and playlist button</li>
+          <li>zoom the play/pause, rewind/fast buttons</li>
+
+          <h2>Redesign</h2>
+          <h3>Scoping</h3>
+
+          <p>
+            As an illustration of my recommendation, I decided to start from the player because it is the central part
+            of Hahow, and that redesigning it will help with the most usability issue.
+          </p>
+
+          <h3>Sketching out possibilities</h3>
+
+          <p>
+            I started from sketching out the wireframes and possible interactions, and evaluated each solution based on
+            my understanding of the challenge.
+          </p>
+
+          <img src="../img/projects/hahow APP/sketch player.png" alt="" />
+
+          <div class="sp-s"></div>
+
+          <h3>Before and after</h3>
+          <p>
+            After redesign, it's a lot more easier to click play/pause, rewind/fast forward buttons. The background of
+            the control panel has a lower opacity so that the users can see the subtitles through the panel background.
+          </p>
+          <img src="../img/projects/hahow APP/before after.png" alt="" />
+
+          <h2>Research</h2>
+          <p>
+            I generated interaction maps, and conducted interviews, comparative analysis, heuristic evaluation,
+            usability testings, and collected quantitative survey data. Below is a summary of the methods I used.
+          </p>
+
+          <h3>Interaction map</h3>
+          <p>
+            To gain a comprehensive understanding of the app flow, I first generated an interaction map to walk through
+            all the interactions.
+          </p>
+          <h3>Google review</h3>
+          <p>I conducted interviews with 3 users to understand user needs and the context of use.</p>
+          <h3>Survey</h3>
+          <p>
+            I collected a total of 70 google play reviews, 43 reviews valid, to understand users' opinions on the use
+            and effect.
+          </p>
+          <img src="../img/projects/hahow APP/reviews.jpg" alt="" />
+          <h3>Comparative analysis</h3>
+          <p>
+            To understand different desin patterns of players, I analyzed mainstream player in the world. This step
+            served as an inspiration in my redesign of the app.
+          </p>
+          <img src="../img/projects/hahow APP/comparative analysis.jpg" alt="" />
+
+          <h3>Heuristic evaluation</h3>
+          <p>Based on Nielsen's 10 usability heuristic rules, we consolidated 7 major usability findings.</p>
+          <h3>Usability testing</h3>
+          <p>
+            To further validate the usability issues that prevent users from completing the core learning functions, we
+            planned a set of tasks involving featured functions that have revealed potential usability problems in
+            previous studies.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sp-l"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

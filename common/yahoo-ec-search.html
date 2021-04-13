@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/project.css" />
+
+    <title>chiakuanchin</title>
+  </head>
+  <body>
+    <!-- To Top -->
+    <button onclick="toTopFunction()" id="toTopBtn" title="Go to top" style="display: block">
+      <img src="../img/arrow.png" alt="Go to top" />
+    </button>
+
+    <!-- Header -->
+
+    <header id="main-head">
+      <div class="wrapper-home">
+        <div class="head-container">
+          <div class="logo-container"><a href="../index.html" id="logo">CK</a></div>
+          <nav>
+            <ul>
+              <li><a target="_blank" href="../img/Chia Kuan Chin.pdf" target="_blank">Resume</a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/cchin01/"">Linkedin</a></li>
+              <li><a id="copyLink" onclick="copyLink(`ckchin.pm@gmail.com`)">Email</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- content -->
+
+    <div class="project-wrap">
+      <div class="row justify-content-center">
+        <div class="col-sm-5 col-sm-offset-2">
+          <h1>Yahoo shopping search</h1>
+          <p>
+            Yahoo shopping is a platform that allow users to buy what they want on it. Users could search products by
+            its own search system and category system. In 2020, I worked with them to deliver a better search experience
+            and achieved 22% increase of conversion rate on category page.
+          </p>
+          <img src="../img/projects/yahoo search/yahoo shopping search.png" alt="" />
+
+          <h2>Research</h2>
+          <h3>Usability test</h3>
+          <p>
+            Observed 7 users and minuted the interview. Analyzed the context of use and transformed user needs to
+            practical function or product features.
+          </p>
+
+          <h3>Data collection</h3>
+          <p>
+            I collected data from various sources, including customer service, report form, google play reviews, forum,
+            and so forth.Organized and analyed them to understand its flaws and potential improvements.
+          </p>
+
+          <h2>Highlights</h2>
+          After the research, we found following major pain points.
+
+          <h3>Filter (Web)</h3>
+          <p>
+            After expanding the filter menu and click any one of them, the web would auto-reload and the filter
+            collapse. It would be very inconvient for those who want to select multiple options
+          </p>
+
+          <h3>Items hint (APP)</h3>
+          <p>
+            When users browse the search result page and scroll down, the APP would load the next 10 items every time
+            until the last item is about to shown. The APP put all the items on the same page instead of using
+            pagination. But without the pagination, the users couldn't expect how long it would take to scroll down to
+            the very bottom. According to the research, most users had negative emotions when they couldn't expect the
+            amount of rest items while scrolling down the search result page.
+          </p>
+
+          <h3>Category (APP & Web)</h3>
+          <p>
+            Part of product categories of Yahoo was aligned to sales team, and it was not intuitive enough to users. In
+            addtion, the page layouts of different levels of categories are not consistent. Most interviewers were
+            confused when they first time searched product by category system.
+          </p>
+
+          <h2>Variations</h2>
+          <h3>Filter (Web)</h3>
+          <p>
+            It won't collapse every time the user click a single checkbox. You can select multiple values at one time
+            and then click the collapse all.
+          </p>
+          <img src="../img/projects/yahoo search/filter.gif" alt="" />
+          <div class="sp-m"></div>
+
+          <h3>Items hint (APP)</h3>
+
+          <img src="../img/projects/yahoo search/hint.gif" alt="" />
+          <div class="img-description">Show the number of products below.</div>
+
+          <div class="sp-s"></div>
+
+          <div class="row"><img class="center-block" src="../img/projects/yahoo search/hint2.gif" alt="" /></div>
+          <div class="img-description">half transparent background</div>
+
+          <div class="sp-s"></div>
+
+          <h3>Category (APP & Web)</h3>
+          <p>
+            We reconstructed category system by deleting seldom used name, renaming some of them according to user
+            research and search volume, and organizing them in a more intuitive structure.
+          </p>
+
+          <div class="sp-l"></div>
+          <div class="sp-l"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

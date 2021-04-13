@@ -1,0 +1,201 @@
+/*---------------------------
+-----------Reusable ---------
+---------------------------*/
+body {
+  background-color: rgb(253, 253, 253);
+  font-family: "Arvo", serif;
+  color: #464b52;
+  hyphens: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #473737;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 32px;
+  word-spacing: 2px;
+}
+
+.wrapper-home {
+  padding: 0 200px;
+  margin: 0 auto;
+}
+
+#toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  opacity: 0.6;
+  transform: scale(0.8);
+}
+
+#toTopBtn:focus {
+  outline: none;
+}
+
+/*---------------------------
+-------------Menu -----------
+---------------------------*/
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  font-size: 20px;
+  line-height: 80px;
+}
+
+.logo-container a {
+  color: #000;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  line-height: 80px;
+}
+
+ul li a {
+  margin-left: 40px;
+  font-size: 16px;
+  color: #1c2334;
+}
+
+#copyLink {
+  cursor: pointer;
+}
+
+/*---------------------------
+-------------Intro------------
+---------------------------*/
+
+.intro {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(img/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.brief-introduction {
+  width: 750px;
+  padding-top: 150px;
+  height: 350px;
+  position: relative;
+}
+
+.see-projects {
+  color: #3500c7;
+  margin-top: 32px;
+}
+
+/*---------------------------
+------------Projects---------
+---------------------------*/
+
+.project {
+  height: 480px;
+  position: relative;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-left {
+  width: 50%;
+}
+
+.project-right {
+  height: 480px;
+  text-align: right;
+}
+
+.project-right img {
+  max-width: 85%;
+  max-height: 85%;
+  margin-top: 32px;
+  margin-left: -8px;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+
+.text-wrapper {
+  padding-top: 170px;
+}
+
+.project-title {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.project-description {
+  color: #fff;
+  font-family: Arvo, serif;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 25px;
+  word-spacing: 2px;
+}
+
+.learn-more {
+  line-height: 24px;
+  margin-top: 32px;
+}
+
+.learn-more a {
+  color: #195d53;
+  padding-bottom: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.learn-more a:hover {
+  padding-bottom: 3px;
+  border-bottom: solid 1px;
+}
+
+.project-1 {
+  background-color: #29e7cd;
+}
+
+.project-2 {
+  background-color: #3e3f3b34;
+}
+
+.project-3 {
+  background-color: #5eb7ffa8;
+}
