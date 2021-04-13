@@ -32,11 +32,6 @@ p {
   word-spacing: 2px;
 }
 
-.wrapper-home {
-  padding: 0 200px;
-  margin: 0 auto;
-}
-
 #toTopBtn {
   display: none;
   position: fixed;
@@ -144,11 +139,9 @@ ul li a {
 .project-right img {
   max-width: 85%;
   max-height: 85%;
-  margin-top: 32px;
-  margin-left: -8px;
   position: absolute;
   bottom: 0;
-  right: 0px;
+  right: 0;
 }
 
 .text-wrapper {
