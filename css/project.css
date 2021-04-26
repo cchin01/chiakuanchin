@@ -82,6 +82,22 @@ h3 {
   margin-top: 32px;
 }
 
+h4 {
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+h4::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #478500;
+  margin-bottom: 6px;
+}
+
 p {
   text-align: justify;
   word-spacing: 2px;
@@ -99,4 +115,14 @@ li {
   hyphens: auto;
   font-size: 16px;
   word-spacing: 2px;
+}
+
+.formula {
+  text-align: center;
+  margin: 40px 0;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
 }
